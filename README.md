@@ -16,13 +16,13 @@ To use the Superhero Tracker API, you'll need the following tools installed on y
 
 To install the Superhero Tracker API, follow these steps:
 
-1. Clone the repository: git clone git@github.com:ittstevin/Superheroes.git
-2. Install the dependencies: bundle install
-3. Create the database: rails db:create
-4. Run the migrations: rails db:migrate
-5. Seed the database: rails db:seed
-6. Start the server: rails s
-7. Navigate to http://localhost:3000/ in your web browser to verify that the server is running.
+1. Clone the repository: `git clone git@github.com:ittstevin/Superheroes.git`
+2. Install the dependencies: `bundle install`
+3. Create the database: `rails db:create`
+4. Run the migrations: `rails db:migrate`
+5. Seed the database: `rails db:seed`
+6. Start the server: `rails s`
+7. Navigate to `http://localhost:3000/` in your web browser to verify that the server is running.
 
 ## API Endpoints
 
@@ -91,7 +91,7 @@ Copy code
 }
 
 ## Author
-(Tevin Munene)[www.github.com/ittstevin]
+(Tevin Munene)[`www.github.com/ittstevin`]
 
 ## License
 
