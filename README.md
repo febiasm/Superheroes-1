@@ -31,30 +31,9 @@ The Superhero Tracker API provides the following endpoints:
 GET /heroes
 Returns a list of all the heroes in the database. The response is an array of objects, where each object represents a hero and includes the following attributes:
 
-id (integer): the hero's unique identifier
-name (string): the hero's real name
-super_name (string): the hero's superhero name
-Example response:
-
-json
-Copy code
-[
-  {
-    "id": 1,
-    "name": "Peter Parker",
-    "super_name": "Spider-Man"
-  },
-  {
-    "id": 2,
-    "name": "Bruce Wayne",
-    "super_name": "Batman"
-  },
-  {
-    "id": 3,
-    "name": "Clark Kent",
-    "super_name": "Superman"
-  }
-]
+- id (integer): the hero's unique identifier
+- name (string): the hero's real name
+- super_name (string): the hero's superhero name
 
 ## GET /heroes/:id
 
@@ -68,30 +47,9 @@ Returns the details for a single hero. The response is an object that includes t
 - name (string): the superpower's name
 - description (string): a brief description of the superpower.
 
-Example response:
-
-json
-Copy code
-{
-  "id": 1,
-  "name": "Peter Parker",
-  "super_name": "Spider-Man",
-  "powers": [
-    {
-      "id": 1,
-      "name": "Super Strength",
-      "description": "Gives the wielder superhuman strength."
-    },
-    {
-      "id": 2,
-      "name": "Web-Slinging",
-      "description": "Allows the wielder to shoot webs from their hands and swing through the city."
-    }
-  ]
-}
-
 ## Author
-(Tevin Munene)[`www.github.com/ittstevin`]
+
+[Tevin Munene](www.github.com/ittstevin)
 
 ## License
 
