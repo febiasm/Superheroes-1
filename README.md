@@ -49,7 +49,7 @@ Returns the details for a single hero. The response is an object that includes t
 
 ## Author
 
-[Tevin Munene](www.github.com/ittstevin)
+[Tevin Munene]([www.github.com/ittstevin](https://github.com/ittstevin))
 
 ## License
 
