@@ -1,36 +1,44 @@
 # Superhero Tracker API
-The Superhero Tracker API is a Rails-based API that allows you to track superheroes and their superpowers. It includes three main resources: Hero, Power, and HeroPower. The API provides endpoints for managing these resources, including routes for creating, reading, updating, and deleting data.
+
+
+The Superhero Tracker API is a Rails-based API that allows you to track superheroes and their superpowers. It includes three main resources: Hero, Power, and HeroPower. The API provides endpoints for creating, reading, updating, and deleting data.
 
 ## Getting Started
 ### Prerequisites
-Before you can use the Superhero Tracker API, you'll need to have the following tools installed on your machine:
+
+To use the Superhero Tracker API, you'll need the following tools installed on your machine:
+
 - Ruby 2.7.4 or higher
 - Rails 6.1.4 or higher
 - PostgreSQL 13.4 or higher
-## Installation
+
+### Installation
+
 To install the Superhero Tracker API, follow these steps:
-1. Clone the repository:
-   `git clone https://github.com/CaseyOchieng/superHero`
-2. Install the dependencies:
-    `bundle install`
-3.  Create the database:
-   `rails db:create`
-4. Run the migrations:
-   `rails db:migrate`
-5. Seed the database:
-   `rails db:seed`
-6. Start the server:
-   `rails s`
-7. Navigate to `http://localhost:3000/` in your web browser to verify that the server is running.    
-# API Endpoints
+
+1. Clone the repository: git clone git@github.com:ittstevin/Superheroes.git
+2. Install the dependencies: bundle install
+3. Create the database: rails db:create
+4. Run the migrations: rails db:migrate
+5. Seed the database: rails db:seed
+6. Start the server: rails s
+7. Navigate to http://localhost:3000/ in your web browser to verify that the server is running.
+
+## API Endpoints
+
 The Superhero Tracker API provides the following endpoints:
-## GET /heroes
+
+GET /heroes
 Returns a list of all the heroes in the database. The response is an array of objects, where each object represents a hero and includes the following attributes:
-- id (integer): the hero's unique identifier
-- name (string): the hero's real name
-- super_name (string): the hero's superhero name
+
+id (integer): the hero's unique identifier
+name (string): the hero's real name
+super_name (string): the hero's superhero name
 Example response:
-`[
+
+json
+Copy code
+[
   {
     "id": 1,
     "name": "Peter Parker",
@@ -47,8 +55,9 @@ Example response:
     "super_name": "Superman"
   }
 ]
-`
+
 ## GET /heroes/:id
+
 Returns the details for a single hero. The response is an object that includes the following attributes:
 
 - id (integer): the hero's unique identifier
@@ -58,8 +67,12 @@ Returns the details for a single hero. The response is an object that includes t
 - id (integer): the superpower's unique identifier
 - name (string): the superpower's name
 - description (string): a brief description of the superpower.
+
 Example response:
-`{
+
+json
+Copy code
+{
   "id": 1,
   "name": "Peter Parker",
   "super_name": "Spider-Man",
@@ -76,8 +89,13 @@ Example response:
     }
   ]
 }
-`
+
 ## Author
-(Casey Ochieng)[https://github.com/CaseyOchieng]
+(Tevin Munene)[www.github.com/ittstevin]
+
 ## License
-`MIT`
+
+This project is licensed under the MIT License.
+
+
+
